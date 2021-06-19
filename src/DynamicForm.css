@@ -1,0 +1,33 @@
+.dynamic-form {
+  max-width: 480px;
+  width: 100%;
+  padding: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px gray;
+  color: teal;
+  text-shadow: teal;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 2em;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px black;
+  padding: 1em 4em 2em;
+}
+
+.error-message {
+  padding-top: 1em;
+  color: #c00303;
+}

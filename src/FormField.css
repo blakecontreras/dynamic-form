@@ -1,0 +1,13 @@
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+.form-field.form-field-checkbox {
+  flex-direction: row;
+}
+
+.form-field-label {
+  align-self: flex-start;
+}
